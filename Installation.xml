@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook V5.0//EN" "http://www.docbook.org/xml/5.0/dtd/docbook.dtd">
+<chapter>
+	<title>Installation and Configuration</title>
+	<section>
+	<title>Installation</title>
+<section>
+<title>System Requirements</title>
+	<itemizedlist>
+			<listitem><para>Operating System: Linux, Windows, Mac OS X</para></listitem>
+			<listitem><para>3D Graphics Card with proper driver that supports OpenGL</para></listitem>
+			<listitem><para>Minimum 256 MB RAM</para></listitem>
+   </itemizedlist>
+</section>
+<section>
+<title>Linux</title>
+	<section>
+	<title>Fedora and RedHat</title>
+   <para>Stellarium can be found in the repository and can be installed using the following command as root</para>
+   <programlisting>yum install stellarium</programlisting>
+   </section>
+   <section>
+   <title>Ubuntu,Linux Mint and Debian</title>
+   <para>Stellarium can be found in the repository and can be installed using the following command as a sudo user</para>
+   <programlisting>sudo apt-get install stellarium</programlisting>
+   </section>
+   <section>
+   <title>Other Linux Distros</title>
+   <para>The source can be downloaded from the page http://stellarium.org</para>
+   </section>
+   </section>
+<section>
+<title>Mac OS</title>
+<para>Download the package file from the link http://sourceforge.net/projects/stellarium/files/Stellarium-MacOSX/0.11.0/Stellarium-0.11.0-Universal.dmg/download.</para>
+<para>Click on the Downloaded file to install stellarium on Mac.</para>
+</section>
+<section>
+<title>Windows</title>
+<para>Download the package file from the link http://sourceforge.net/projects/stellarium/files/Stellarium-win32/0.11.0/stellarium-0.11.0-win32.exe/download.</para>
+<para>Double click on the file and follow the instructions while interacting with the installation window.</para>
+</section>
+</section>
+</chapter>

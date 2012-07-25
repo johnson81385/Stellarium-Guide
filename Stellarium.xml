@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook V5.0//EN" 
+"http://www.docbook.org/xml/5.0/dtd/docbook.dtd">
+<book>  
+  <title>Stellarium Guide</title>
+
+<xi:include  href="Introduction.xml"  xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include  href="Installation.xml"  xmlns:xi="http://www.w3.org/2001/XInclude" />
+
+</book>

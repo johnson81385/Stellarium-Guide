@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook V5.0//EN" "http://www.docbook.org/xml/5.0/dtd/docbook.dtd">
+<chapter>
+	<title>Stellarium</title>
+	<section>
+	<title>Introduction to Stellarium</title>
+	<para>Stellarium is a Open Source Software which can simulate the view of astronomical objects present in the sky. In short it brings the sky virtually to your computer. It also shows the objects that can be seen during a particular time. The other planets and their natural satellites of other planets can also be seen. It can also be used as a tool for learning astronomy.</para>
+	</section>
+
+<section>
+<title>Features</title>
+<section>
+<title>Visual features</title>
+	<itemizedlist>
+			<listitem><para>Labels of Planets, Constellations and Nebulae </para></listitem>
+			<listitem><para>constellation lines and constellation art</para></listitem>
+		   <listitem><para>Images of nebulae from Messier catalogue</para></listitem>
+			<listitem><para>Illustrated view of Sky from various locations on Earth</para></listitem>
+			<listitem><para>Different Planets of the solar system and their natural satellites</para></listitem>
+			<listitem><para>Display of Astronomical objects from different points other than Earth</para></listitem>
+			<listitem><para>Display of Equatorial and azimuthal grids</para></listitem>
+			<listitem><para>Other Sky objects and Landscapes can be added</para></listitem>
+			<listitem><para>Includes stars from the Hipparcos Catalogue and the Tycho-2 Catalogue</para></listitem>
+			<listitem><para>Includes stars from other extra catalogues</para></listitem>
+	</itemizedlist>
+</section>
+<section>
+<title>Interface</title>
+	<itemizedlist>
+			<listitem><para>Zoom Control</para></listitem>
+			<listitem><para>Time control</para></listitem>
+			<listitem><para>Multilingual support</para></listitem>
+			<listitem><para>Full Screen view</para></listitem>
+			<listitem><para>Fisheye projection</para></listitem>
+			<listitem><para>Spherical mirror projection</para></listitem>
+			<listitem><para>Keyboard and Mouse control</para></listitem>
+			</itemizedlist>
+</section>
+<section>
+<title>Plugins</title>
+	<itemizedlist>
+			<listitem><para>Angle measure</para></listitem>
+			<listitem><para>Compass marks</para></listitem>
+			<listitem><para>Ocular View</para></listitem>
+			<listitem><para>Satellite hints</para></listitem>
+			<listitem><para>Move telescope to a set of coordinates</para></listitem>
+	</itemizedlist>
+</section>
+</section>
+</chapter>
