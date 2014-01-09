@@ -16,28 +16,62 @@
 <title>Linux</title>
 	<section>
 	<title>Fedora and RedHat</title>
-   <para>Stellarium can be found in the repository and can be installed using the following command as root</para>
+   <para>Stellarium can be found in the repositories and can be installed using the following command as root</para>
    <programlisting>yum install stellarium</programlisting>
    </section>
    <section>
    <title>Ubuntu,Linux Mint and Debian</title>
-   <para>Stellarium can be found in the repository and can be installed using the following command as a sudo user</para>
+   <para>Stellarium is included in the default Ubuntu (and Mint and Debian) repositories and Ubuntu users can install Stellarium via the Software Center. Open software center, search for 'stellarium' and hit install. As simple as that. Command line installation is done like so: </para>
    <programlisting>sudo apt-get install stellarium</programlisting>
+   <para>For those wishing to have a more bleeding edge version of Stellarium, there's a PPA repository that is updated more often. You can add the repository manually to install a more recent version of Stellarium</para>
+   <programlisting>
+   sudo add-apt-repository ppa:stellarium/stellarium-releases
+   sudo apt-get update
+   sudo apt-get install stellarium
+   </programlisting>
    </section>
    <section>
-   <title>Other Linux Distros</title>
-   <para>The source can be downloaded from the page http://stellarium.org</para>
+   <title>Installing from source</title>
+   <para>The source can be downloaded from http://sourceforge.net/projects/stellarium/files/Stellarium-sources/. Dowload the latest source tarball. At the moment of writing this document, the version is 0.12.4. Save the tarball in a suitable location like /opt</para>
+   <section>
+   <title>Installing Build Dependencies</title>
+   <para>The essential packages for build are QT library, gcc, g++, cmake, gettext, Zlib and open GL library. They can be installed using the default package managers of your distribution. On Ubuntu and Debian use the dev packages of the library</para>
+   <programlisting>
+   sudo apt-get install build-essential cmake zlib1g-dev libglu1-mesa-dev libgl1-mesa-dev gcc g++ gettext libqt4-dev
+   </programlisting>
+   <para>For other distros, use the default package manager like pacman, zypper or urpmi to install the corresponding libraries</para>
+   </section>
+   <section>
+   <title>Installing the source package</title>
+   <para>Extract the source package and then use cmake to configure the build and then use make and make install to install the build in your machine</para>
+   <programlisting>
+   tar zxvf stellarium-0.12.4.tar.gz
+   cd stellarium-0.12.4
+   mkdir -p builds/unix
+   cd builds/unix
+   sudo cmake -DCMAKE_INSTALL_PREFIX=/opt/stellarium ../..
+   make
+   sudo make install
+   </programlisting>
+   </section>
    </section>
    </section>
 <section>
 <title>Mac OS</title>
-<para>Download the package file from the link http://sourceforge.net/projects/stellarium/files/Stellarium-MacOSX/0.11.0/Stellarium-0.11.0-Universal.dmg/download.</para>
+<para>Download the package file from the link http://sourceforge.net/projects/stellarium/files/Stellarium-MacOSX/0.12.4/Stellarium-0.12.4.dmg/download</para>
 <para>Click on the Downloaded file to install stellarium on Mac.</para>
 </section>
 <section>
 <title>Windows</title>
-<para>Download the package file from the link http://sourceforge.net/projects/stellarium/files/Stellarium-win32/0.11.0/stellarium-0.11.0-win32.exe/download.</para>
+<para>Download the relevant package file from the link http://sourceforge.net/projects/stellarium/files/Stellarium-win32/0.12.4/. Choose the file appropriate for your CPU architecture.</para>
 <para>Double click on the file and follow the instructions while interacting with the installation window.</para>
 </section>
+</section>
+<section>
+<title>Basic Configuration</title>
+<para>The default location when you run Stellarium for the first time should be set by hitting F6 and then choosing a location either by clicking on the map or by choosing from the list provided or simply by keying in the co-ordinates of your current location. You can click on the "Use as default" checkbox to set the selected location as the default.</para>
+<para>
+You can set some options in the configuration window (F2). Help is only an F1 key away.
+</para>
 </section>
 </chapter>
