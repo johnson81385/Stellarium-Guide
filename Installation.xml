@@ -68,6 +68,23 @@
 </section>
 </section>
 <section>
+<title>FreeBSD</title>
+<para>Stellarium can be installed on FreeBSD from the 'astro' port. You should download the 'astro' ports collection and then use the package manager to install Stellarium. To install Stellarium on FreeBSD, do the following as a superuser:</para>
+<programlisting>
+# portsnap fetch
+# portsnap extract # skip unless you are doing this for the first time
+# portsnap update
+# cd /usr/ports/astro/stellarium/
+# make install clean
+# pkg_add -r stellarium
+</programlisting>
+</section>
+<section>
+<title>Stellarium for Mobile and Tablets</title>
+<para>There is a version of Stellarium built for Mobile platforms like Android, iOS and Nokia. This unofficial version is not supported by Stellarium desktop team. You can find it on your mobile device's corresponding application store or here: http://www.noctua-software.com/stellarium-mobile.
+</para>
+</section>
+<section>
 <title>Basic Configuration</title>
 <para>The default location when you run Stellarium for the first time should be set by hitting F6 and then choosing a location either by clicking on the map or by choosing from the list provided or simply by keying in the co-ordinates of your current location. You can click on the "Use as default" checkbox to set the selected location as the default.</para>
 <para>
