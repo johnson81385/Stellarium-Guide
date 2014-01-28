@@ -8,6 +8,43 @@
 	</section>
 
 <section>
+<title>What can I do with it?</title>
+<para>
+Stellarium is a planetarium software, which means it's a virtual planetarium that you can visit sitting at home. It's an educational software that you can use to look at stars, constellations and celestial objects. It simulates the night sky at any given location on Earth. If you were wondering what a particularly bright object towards the south is, you can find out using Stellarium. Stellarium shows the movement of astronomical objects and man made satellites with respect to Earth at any given point in time. 
+</para>
+</section>
+
+<section>
+<title>Who is Stellarium for?</title>
+<para>
+Stellarium is an excellent tool for astronomers, sky gazers, students and children. 
+</para>
+</section>
+
+<section>
+<title>Similar Software</title>
+  <itemizedlist>
+    <listitem><para>Celestia</para></listitem>
+    <listitem><para>Google Sky</para></listitem>
+    <listitem><para>Marble</para></listitem>
+    <listitem><para>NASA World Wind</para></listitem>
+    <listitem><para>Earth 3D</para></listitem>
+    <listitem><para>Starry night, TheSky, etc.</para></listitem>
+  </itemizedlist>
+  <section>
+  <title>Differences from similar software</title>
+    <para>
+    While Stellarium is Free Software (as in freedom), most of the other software on the list is proprietary. This means that Stellarium is developed by the community. Stellarium is also free of cost and affordable. Other Free Software in the list are Celestia and NASA World Wind. Another difference is, while all of the software in the list can be considered astronomy software, they can be widely classified into three categories: Planatarium Software, Space explorers and Virtual Globes.</para>
+    <para>
+    They differ in the location of the users with respect to whatever they are viewing. Planetarium software place the user on the ground in earth. So it's similar to standing on a road and looking up in the sky. The user can choose the location from which he/she wishes to gaze at the sky. Stellarium, Google Sky are planetarium software</para>
+    <para>Virtual Globes place the user in space facing Earth or other planets. In this, the user focuses only on one planet and can navigate the planets terrain from the point of view of a satellite in space. The user can choose the altitude from which he/she wishes to look at the planet. NASA World Wind, Marble and Earth 3D are Virtual Globe software.</para>
+    <para>Space Simulators place the users anywhere in space time. The user can be near Neptune looking towards the planet or somewhere in the vicinity of the asteroid belt! Celestia is a space explorer.</para>
+    <para>Most astronomy software let the user control current time, speed of time, the virtual location, magnification level and the point-of-view.</para>
+    </para>
+  </section>
+</section>
+
+<section>
 <title>Features</title>
 <section>
 <title>Visual features</title>

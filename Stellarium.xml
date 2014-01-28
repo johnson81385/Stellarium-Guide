@@ -6,5 +6,13 @@
 
 <xi:include  href="Introduction.xml"  xmlns:xi="http://www.w3.org/2001/XInclude" />
 <xi:include  href="Installation.xml"  xmlns:xi="http://www.w3.org/2001/XInclude" />
-
+<xi:include  href="Interface.xml"    xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include  href="Sol.xml"    xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include  href="Stars.xml"    xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include  href="deepspace.xml"    xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include  href="Plugins.xml"    xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include  href="Tables.xml"    xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include  href="Units.xml"    xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include  href="TUIcmd.xml"    xmlns:xi="http://www.w3.org/2001/XInclude" />
+<xi:include  href="Appendices.xml"    xmlns:xi="http://www.w3.org/2001/XInclude" />
 </book>
